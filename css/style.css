@@ -409,6 +409,7 @@ h1 h2 h3 h4 h5 h6 p{
     text-align: center;
     color: #fff;
     font-weight: 400;
+    padding-bottom: 100px;
 }
 
 #third-part .image{
@@ -429,12 +430,14 @@ h1 h2 h3 h4 h5 h6 p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 148px 0;
+    padding-top: 205px;
+    padding-bottom: 110px;
     margin-top: -394px;
 }
 #fourth-part{
     background-color: #FF9600;
     padding-top: 100px;
+    padding-bottom: 500px;
 }
 #fourth-part .white-logo img{
     padding: 0 616px;
@@ -462,8 +465,8 @@ h1 h2 h3 h4 h5 h6 p{
 #fourth-part .fourth-btn{
     display: flex;
     gap: 17px;
-    padding: 0 490px;
-    padding-top: 61px;
+    margin-top: 61px;
+    padding: 0 454px;
 }
 #fourth-part .fourth-btn .btn-one a{
     background-color: #0C3543;
@@ -495,3 +498,91 @@ h1 h2 h3 h4 h5 h6 p{
     border-color: #14BEF4;
 }
 /* 4TH PART CSS END */
+
+
+
+
+#sport .container{
+    position: relative;
+}
+#sport .sport-card {
+    position: absolute;
+    bottom: -145px;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sport .sport-card .card:hover .grad{
+    opacity: 100%;
+    transition: 0.5s;
+}
+#sport .sport-card .card:hover h2{
+    opacity: 1;    
+    transition: 0.5s;
+}
+#sport .sport-card .card:hover h4{
+    opacity: 1;    
+    transition: 0.5s;
+}
+#sport .sport-card .card:hover p{
+    opacity: 1;    
+    transition: 0.5s;
+}
+#sport .sport-card .card img{
+    width: 430px;
+}
+#sport .sport-card .card{
+    position: relative;
+    margin-left: 24px;
+}
+#sport .sport-card .card .grad{
+    background: linear-gradient(to bottom, transparent , rgb(0, 0, 0,0.3));
+    height: 500px;
+    width: 100%;
+    border-radius: 12px;
+    position: absolute;
+    opacity: 0;
+}
+#sport .sport-card .text {
+    position: absolute;
+    bottom: 0;left: 0;
+    padding-left: 45px;
+    padding-bottom: 48px;
+}
+#sport .sport-card .text h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #fff;
+    opacity: 0;
+    padding-bottom: 02px;
+}
+#sport .sport-card .text h4{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #fff;
+    opacity: 0;
+    padding-bottom: 10px;
+    position: relative;
+}
+#sport .sport-card .text h4::after{
+    content: '';
+    border: 1px solid #fff;
+    width: 260px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
+#sport .sport-card .text p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+    opacity: 0;
+    padding-top: 30px;
+}
