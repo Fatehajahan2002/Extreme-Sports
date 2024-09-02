@@ -501,7 +501,9 @@ h1 h2 h3 h4 h5 h6 p{
 
 
 
-
+#sport{
+    padding-bottom: 200px;
+}
 #sport .container{
     position: relative;
 }
@@ -585,4 +587,69 @@ h1 h2 h3 h4 h5 h6 p{
     color: #fff;
     opacity: 0;
     padding-top: 30px;
+}
+
+
+
+
+
+#choose .choose-title h2{
+    font-family: "Yellowtail", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #14B9F3;
+    text-align: center;
+}
+#choose .choose-title h3::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 620px;
+    width: 80px;
+    border: 1px solid #818181;
+}
+#choose .choose-title h3{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #000;
+    padding-bottom: 24px;
+    text-align: center;
+    position: relative;
+}
+#choose .choose .one .icon{
+    font-size: 30px;
+    color: #9e9eff;
+    background: #F2F2FD;
+    padding: 45px 45px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+#choose .choose{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+#choose .choose .one h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 275px;
+    padding-top: 50px;
+    text-align: center;
+    color: #000;
+}
+#choose .choose .one p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 275px;
+    text-align: center;
+    color: #000;
 }
