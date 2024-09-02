@@ -592,7 +592,9 @@ h1 h2 h3 h4 h5 h6 p{
 
 
 
-
+#choose{
+    padding-bottom: 70px;
+}
 #choose .choose-title h2{
     font-family: "Yellowtail", cursive;
     font-size: 30px;
@@ -626,7 +628,7 @@ h1 h2 h3 h4 h5 h6 p{
     padding: 45px 45px;
     text-align: center;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 63px;
     border-radius: 50%;
 }
 #choose .choose{
@@ -652,4 +654,112 @@ h1 h2 h3 h4 h5 h6 p{
     width: 275px;
     text-align: center;
     color: #000;
+}
+
+
+
+
+
+#passion {
+    padding-top: 82px;
+    padding-bottom: 103px;
+    background: #F7F7F7;
+}
+#passion .passion{
+    display: flex;
+    justify-content: space-between;
+}
+#passion .passion-left h5{
+    font-family: "Yellowtail", cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #FF9600;
+}
+#passion .passion-left h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #000;
+    width: 394px;
+}
+#passion .passion-right p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000;
+    width: 638px;
+    padding-top: 70px;
+}
+#passion .passion-card{
+    display: flex;
+    justify-content: space-between;
+}
+#passion .card{
+    padding-top: 50px;
+}
+
+#passion .card .card-details{
+    background: #fff;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 38px;
+    padding-bottom: 30px;
+    width: 430px;margin-top: -5px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    position: relative;
+}
+#passion .card .card-details h2{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #000;
+    text-align: center;
+    width: 370px;
+}
+#passion .card .card-details p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #000;
+    text-align: center;
+    width: 370px;
+}
+#passion .card .card-details .passion-btn a::after{
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 23px;
+    width: 430px;
+    height: 1px;
+    background: #F0F0F0;
+}
+#passion .card .card-details .passion-btn {
+    position: relative;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #FF9600;
+    text-align: center;
+}
+#passion .card .card-details .passion-btn a{
+    color: #FF9600;
+    padding-top: 48px;
+}
+
+
+
+
+#mountain {
+    padding-top: 99px;
+    padding-bottom: 99px;
+}
+#mountain img{
+    opacity: 0.5;
 }
