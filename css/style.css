@@ -763,3 +763,91 @@ h1 h2 h3 h4 h5 h6 p{
 #mountain img{
     opacity: 0.5;
 }
+
+
+#footer{
+    display: flex;
+    background: #0C3543;
+}
+#footer .footer-details{
+    padding-left: 52px;
+}
+#footer .footer-details .footer-top{
+    padding-top: 99px;
+    display: flex;
+    position: relative;
+    padding-bottom: 45px;
+}
+#footer .footer-details .footer-top::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 898px;
+    height: 1px;
+    background: #3D5D69;
+}
+#footer .footer-details .footer-top-left .footer-btn a{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #fff;
+    background: #FF9600;
+    padding: 18px 34px;
+    border-radius: 13px;
+    margin-top: 43px;
+}
+#footer .footer-details .footer-top-left .footer-btn a:hover{
+    background: #ff8400;
+    color: #000;
+}
+#footer .footer-details .footer-top-right p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #fff;
+    width: 638px;
+    padding-left: 14px;
+    padding-top: 110px;
+}
+
+#footer .footer-details .footer-bottom{
+    display: flex;padding-top: 57px;
+}
+
+#footer .footer-details .footer-bottom .footer-bottom-left P{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #fff;
+    position: relative;
+}
+#footer .footer-details .footer-bottom .footer-bottom-left P::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    background: #fff;
+    width: 64px;
+    height: 1px;
+}
+#footer .footer-details .footer-bottom .footer-bottom-right P{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #fff;
+    width: 467px;
+    padding-left: 113px;
+}
+#footer .footer-details .footer-btm p{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #fff;
+    padding-top: 57px;
+}
